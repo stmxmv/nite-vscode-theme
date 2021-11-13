@@ -1,0 +1,27 @@
+{
+    "name": "nite-theme",
+    "publisher": "alleorgeunam",
+    "displayName": "nite-theme",
+    "description": "nite's theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "nite",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nite-color-theme-dark.json"
+            },
+            {
+                "label": "nite-light",
+                "uiTheme": "vs",
+                "path": "./themes/nite-color-theme-light.json"
+            }
+        ]
+    }
+}
